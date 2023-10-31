@@ -1,0 +1,174 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Mukta', sans-serif;
+}                                        /*  hearder */
+.icon {
+    margin-top: 20px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+nav img{
+    width: 15%;
+    margin-top: -5px;
+}
+nav .down{
+    display: flex;
+    font-size: 20px;
+    margin-top: 25px;
+}
+nav .down i{
+    margin-inline: 15px;
+}
+nav input{
+    width: 350px;
+    height: 50px;
+    outline: none;
+    border-radius: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+                                /* 2ed navbar kid men*/
+.sec-nav{ 
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border: 1px solid rgb(156, 134, 134);
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.sec-nav p:hover{
+    color: rgb(234, 27, 61);
+    cursor: pointer;
+}                                   /*1st Div*/
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(211, 206, 206);
+    margin-top: 44px;
+}
+.main .text{
+    width: 500px;
+    background-color: rgb(211, 206, 206);
+}
+.main .text h1{
+    font-size: 55px;
+    margin-top: 11px;
+    margin-left: 10px;
+}
+.main .text .txt{
+    display: flex;
+    justify-content: center;
+}
+.main .text .txt h2{
+    margin-inline: 11px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.main .text button{
+    width: 300px;
+    height: 43px;
+    background-color: rgb(255, 22, 61);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.main .text button:hover{
+    background-color: transparent;
+    border: 3px solid rgb(245, 50, 83) ;
+    color: rgb(235, 24, 60);
+}                                   /* 2ed Div */
+.top-cat h1{
+    text-align: center;
+    margin-top: 40px;
+    padding: 5px;
+    padding-bottom: 35px;
+}
+.top-cat .fs{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(251, 224, 229);
+}
+
+.top-cat .fs h1{ 
+    font-size: 50px;
+    margin-top: 12%;
+    margin-left: 90px;      
+}                                       /* 3ed Div */
+.seller h1{
+    text-align: center;
+    margin-top: 3px;
+    padding: 33px;
+    font-size: 44px;
+}
+.seller img{
+    width: 1000px;
+    padding-left: 17%;
+}                                       /*4th Div*/
+h1{
+    text-align: center;
+    font-size: 44px;
+    margin-top: 33px;
+    padding: 33px;
+}
+.card{
+    margin-top: 33px;
+    width: 100;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.box .img{
+    width: 200px;
+    border: 1px solid rgb(199, 192, 192);
+}
+.box .img img{
+    height: 150px;
+    width: 100%;
+}
+                                        /*4th Div*/
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 44px;
+    padding: 55px;
+    background-color: rgb(242, 228, 228);
+}
+.footer .list p{
+    margin-top: 5px;
+}
+.footer .icons{
+    display: flex;
+}
+.footer .list .icons i{
+    margin-inline: 10px;
+    font-size: 30px;
+    margin-left: 1px;
+}
+.footer .list .fc{
+    color: rgb(0, 110, 255);
+}
+.footer .list .inst{
+    color: rgb(234, 60, 92);
+}
+.footer .list .yt{
+    color: red;
+}
+.footer .list .twt{
+    color: rgb(0, 110, 255);
+}
